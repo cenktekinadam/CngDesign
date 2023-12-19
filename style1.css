@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.nav li a:hover {
+    background-color: chocolate;
+}
+
+.nav li {
+    display: inline;
+    padding: 0 10px;
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.blue {
+    color: bisque;
+
+}
+
+.logo {
+    font-size: x-large;
+}
+
+.main {
+    background: linear-gradient(to bottom, #5b738b46, #7796b338);
+    height: 100px;
+
+    position: relative;
+    z-index: 4;
+
+
+}
+
+.head-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.png {
+    max-height: 90%;
+    width: 750px;
+    background-image: url("img/technology-01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 250px;
+    position: relative;
+    z-index: 2;
+}
+
+.sec-1 {
+    height: 400px;
+
+    position: relative;
+
+}
+
+
+
+.sect-div {
+    background-image: url("img/Professional_Web_Development_Services_in_London_by_Weeb_Digital.jpg ");
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+    /* Resmi dikey ve yatayda ortalamak için */
+}
+
+.sect-text {
+    color: #4d8ee8;
+    font-size: 5vh;
+    width: 70%;
+    text-shadow: 2px 2px 2px black;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 10px;
+    bottom: 100px;
+}
+
+.sect-text h1 {
+    position: absolute;
+    bottom: 150px;
+
+}
+
+
+
+.row {
+    display: flex;
+    background: linear-gradient(to bottom, #5b738b46, #7796b338);
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    z-index: 3;
+    position: relative;
+    top: 200px;
+
+}
+
+.mail {
+    border: none;
+    padding: 5px 8px;
+}
+
+button {
+    padding: 5px 8px;
+    border: none;
+}
+
+.img img {
+    height: 200px;
+    width: 200px;
+}
+
+/* !caRD */
+
+
+.card {
+    top: 0;
+    width: 300px;
+    height: 500px;
+    margin: 5px 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #5b738b46, #7796b338);
+    border-radius: 20px;
+transition: 1s ease-in-out;
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #5b738b23, #7796b31a);
+    background-image: url(img/website-designing.jpg);
+    /*    object-position: 100% 100%; */
+    background-size: contain;
+position: relative;
+top: 200px;
+}
+
+
+.card h1 {
+    margin-bottom: 20PX;
+    color: #293E6D;
+}
+
+/* footers */
+.last {
+    background-color: #293E6D;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: lightblue;
+    position: relative;
+    top: 200px;
+}
+.card:nth-child(1):hover{
+    transform: rotate(180deg);
+}
+.card:nth-child(2):hover{
+    transform: rotatey(180deg);
+}
+.card:nth-child(3):hover{
+    rotate: 3 12 2 180deg;
+    
+}
+.card:nth-child(4):hover{
+    scale: 1.5;
+    
+}
+.card:nth-child(5):hover{
+    transform: translate3d(12px, 50%, 3em);
+    
+}
+.card:nth-child(6):hover{
+    transform: translateY(-3in);
+}
+@media screen and (max-width:1100px){
+.png{
+    max-width:  500px;
+  display: none;
+}
+.sect-text h1{
+    font-size: larger;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+}
+@media screen and (max-width:800px){
+ 
+    .sect-text h1{
+        font-size: large;
+    }
+
+    }
